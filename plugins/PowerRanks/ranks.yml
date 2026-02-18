@@ -1,0 +1,52 @@
+regex:
+  permissions: []
+  inheritances: []
+  weight: 100
+  default: false
+  buyCost: 100.0
+  suffix: Regex
+  buyDescription: Comprar rango regex por 100 monedas
+  buyCommand: /get regex
+  prefix: '[gradient=#fffff,#fffff]Regex[/gradient]'
+  buyableRanks: []
+  chatcolor: ''
+  namecolor: ''
+Administrador:
+  permissions: []
+  inheritances: []
+  weight: 50
+  default: false
+  buyCost: 0.0
+  suffix: ''
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[gradient=#9d1dff,#e22581]Administrador[/gradient]'
+  buyableRanks: []
+  chatcolor: ''
+  namecolor: ''
+Miembro:
+  permissions: []
+  inheritances: []
+  weight: 0
+  default: true
+  buyCost: 0.0
+  suffix: user
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[gradient=#127e00,#3eaf18]Usuario[/gradient]'
+  buyableRanks: []
+  chatcolor: ''
+  namecolor: ''
+root:
+  permissions: []
+  inheritances: []
+  weight: 100
+  default: false
+  buyCost: 0.0
+  suffix: root
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[gradient=#ff00ff,#33ccff]Owner[/gradient]'
+  buyableRanks: []
+  chatcolor: ''
+  namecolor: ''

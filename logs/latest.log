@@ -1,0 +1,134 @@
+[04:36:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:36:35] [ServerMain/INFO]: Loaded 7 recipes
+[04:36:36] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[04:36:36] [Server thread/INFO]: Loading properties
+[04:36:36] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[04:36:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:36:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:36:37] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[04:36:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[04:36:37] [Server thread/INFO]: Default game type: SURVIVAL
+[04:36:37] [Server thread/INFO]: Generating keypair
+[04:36:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:36:37] [Server thread/INFO]: Using default channel type
+[04:36:37] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[04:36:37] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[04:36:38] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v25.0.2
+[04:36:38] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.0
+[04:36:38] [Server thread/INFO]: [PowerRanks] Loading server plugin PowerRanks v1.10.9R2
+[04:36:38] [Server thread/INFO]: [MOTD] Loading server plugin MOTD v2.3.11
+[04:36:38] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[04:36:38] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[04:36:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:36:38] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v25.0.2
+[04:36:38] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[04:36:38] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[04:36:39] [Server thread/INFO]: [TerraformGenerator] Detected version: v1_20_R1, packName: v1_20_R1
+[04:36:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
+[04:36:40] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[04:36:40] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:36:40] [Server thread/INFO]: [PowerRanks] Enabling PowerRanks v1.10.9R2
+[04:36:40] [Server thread/INFO]: [PowerRanks] 
+[04:36:40] [Server thread/INFO]: [PowerRanks] === ------- LOADING CONFIGURATION ------ ===
+[04:36:40] [Server thread/INFO]: [PowerRanks] Loading config file
+[04:36:40] [Server thread/INFO]: [PowerRanks] Loading language file
+[04:36:40] [Server thread/INFO]: [PowerRanks] Loading usertags file
+[04:36:40] [Server thread/INFO]: [PowerRanks] Loading tablist file
+[04:36:40] [Server thread/INFO]: [PowerRanks] 
+[04:36:40] [Server thread/INFO]: [PowerRanks] === ---------- LOADING ADDONS ---------- ===
+[04:36:40] [Server thread/INFO]: [PowerRanks] Loaded 0 add-on(s)!
+[04:36:40] [Server thread/INFO]: [PowerRanks] 
+[04:36:40] [Server thread/INFO]: [PowerRanks] === ----------- LOADING DATA ----------- ===
+[04:36:40] [Server thread/INFO]: [PowerRanks] Loading player & rank data
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.10.0
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcb9320
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:36:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[04:36:41] [Server thread/INFO]: [PowerRanks] 
+[04:36:41] [Server thread/INFO]: [PowerRanks] === ------- LOADING PLUGIN HOOKS ------- ===
+[04:36:41] [Server thread/INFO]: [PowerRanks] Checking for plugins to hook in to:
+[04:36:41] [Server thread/INFO]: [PowerRanks] No other plugins found! Working stand-alone.
+[04:36:41] [Server thread/INFO]: [PowerRanks] 
+[04:36:41] [Server thread/INFO]: [PowerRanks] §b  ██████  ██████ §a  PowerRanks v1.10.9R2
+[04:36:41] [Server thread/INFO]: [PowerRanks] §b  ██   ██ ██   ██§a  Running on Paper v196
+[04:36:41] [Server thread/INFO]: [PowerRanks] §b  ██████  ██████ §a  Startup time: 643ms
+[04:36:41] [Server thread/INFO]: [PowerRanks] §b  ██      ██   ██§a  Loaded 4 ranks and 1 players (YAML) 
+[04:36:41] [Server thread/INFO]: [PowerRanks] §b  ██      ██   ██§c  
+[04:36:41] [Server thread/INFO]: [PowerRanks] 
+[04:36:41] [Server thread/INFO]: [PowerRanks] If you'd like to donate, please visit https://ko-fi.com/svenar
+[04:36:41] [Server thread/INFO]: [MOTD] Enabling MOTD v2.3.11
+[04:36:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[04:36:41] [Server thread/INFO]:         __    
+[04:36:41] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[04:36:41] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[04:36:41] [Server thread/INFO]: 
+[04:36:41] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[04:36:41] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[04:36:42] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[04:36:42] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1060ms)
+[04:36:42] [Server thread/INFO]: Preparing level "world"
+[04:36:42] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[04:36:42] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[04:36:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:36:44] [Server thread/INFO]: Time elapsed: 91 ms
+[04:36:44] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[04:36:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:36:44] [Server thread/INFO]: Time elapsed: 102 ms
+[04:36:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:36:44] [Server thread/INFO]: Time elapsed: 76 ms
+[04:36:44] [Server thread/INFO]: Running delayed init tasks
+[04:36:44] [Server thread/INFO]: Done (8.362s)! For help, type "help"
+[04:36:44] [Server thread/INFO]: Timings Reset
+[04:36:45] [Tuinity Chunk System Worker #1/WARN]: [ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[04:36:55] [User Authenticator #0/INFO]: UUID of player Nisamov is 144d929b-366d-41f4-94f9-1de0386f5ab5
+[04:36:55] [Server thread/INFO]: Nisamov joined the game
+[04:36:55] [Server thread/INFO]: Nisamov[/[0:0:0:0:0:0:0:1]:63433] logged in with entity id 266 at ([world]1278.1099071542594, 118.0954705178432, 1100.8896356233477)
+[04:37:09] [Server thread/INFO]: Nisamov has made the advancement [Ice Bucket Challenge]
+[04:37:26] [Server thread/INFO]: Nisamov has made the advancement [We Need to Go Deeper]
+[04:37:44] [Server thread/INFO]: Stopping server
+[04:37:44] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[04:37:44] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[04:37:44] [Server thread/INFO]: [LuckPerms] Closing storage...
+[04:37:44] [Server thread/INFO]: [LuckPerms] Goodbye!
+[04:37:44] [Server thread/INFO]: [MOTD] Disabling MOTD v2.3.11
+[04:37:44] [Server thread/INFO]: [PowerRanks] Disabling PowerRanks v1.10.9R2
+[04:37:44] [Server thread/INFO]: [PowerRanks] Disabled PowerRanks v1.10.9R2
+[04:37:44] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.10.0
+[04:37:44] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v25.0.2
+[04:37:44] [Server thread/INFO]: Saving players
+[04:37:44] [Server thread/INFO]: Nisamov lost connection: Server closed
+[04:37:44] [Server thread/INFO]: Nisamov left the game
+[04:37:44] [Server thread/INFO]: Saving worlds
+[04:37:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:37:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:37:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:37:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:37:45] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 4 poi chunks in world 'world' in 0,93s
+[04:37:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:37:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:37:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:37:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:37:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:37:46] [Server thread/INFO]: [ChunkHolderManager] Saved 3058 block chunks, 1170 entity chunks, 1 poi chunks in world 'world_nether' in 1,49s
+[04:37:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:37:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:37:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:37:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:37:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:37:47] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,09s
+[04:37:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:37:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:37:47] [Server thread/INFO]: Flushing Chunk IO
+[04:37:47] [Server thread/INFO]: Closing Thread Pool
+[04:37:47] [Server thread/INFO]: Closing Server
