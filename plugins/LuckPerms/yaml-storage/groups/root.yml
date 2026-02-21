@@ -1,0 +1,9 @@
+name: root
+permissions:
+- essentials.fly
+- minecraft.admin
+parents:
+- administrador
+prefixes:
+- '&b&lroot&f':
+    priority: 1

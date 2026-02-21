@@ -1,0 +1,12 @@
+{"timestamp":1771415686,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"GROUP","name":"root"},"description":"create"}
+{"timestamp":1771415699,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"GROUP","name":"administrador"},"description":"create"}
+{"timestamp":1771415779,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"GROUP","name":"root"},"description":"permission set minecraft.admin true"}
+{"timestamp":1771415808,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"USER","uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"description":"parent set root"}
+{"timestamp":1771416022,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"GROUP","name":"default"},"description":"parent add root"}
+{"timestamp":1771416028,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"GROUP","name":"default"},"description":"parent add administrador"}
+{"timestamp":1771416077,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"GROUP","name":"root"},"description":"permission set essentials.fly true"}
+{"timestamp":1771416089,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"GROUP","name":"administrador"},"description":"permission set essentials.fly true"}
+{"timestamp":1771416101,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"GROUP","name":"administrador"},"description":"parent add root"}
+{"timestamp":1771416171,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"GROUP","name":"root"},"description":"parent add administrador"}
+{"timestamp":1771416304,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"GROUP","name":"root"},"description":"meta setprefix 1 >_"}
+{"timestamp":1771416354,"source":{"uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"target":{"type":"USER","uniqueId":"144d929b-366d-41f4-94f9-1de0386f5ab5","name":"Nisamov"},"description":"parent set root"}

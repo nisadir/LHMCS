@@ -131,6 +131,8 @@ world-settings:
       entity: 50
     max-tnt-per-tick: 100
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 advancements:
   disable-saving: false
   disabled:
