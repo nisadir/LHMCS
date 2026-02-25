@@ -1,177 +1,172 @@
-[20:11:55] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:11:57] [ServerMain/INFO]: Loaded 7 recipes
-[20:11:57] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[20:11:57] [Server thread/INFO]: Loading properties
-[20:11:57] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[20:11:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:11:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:11:58] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[14:57:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:57:35] [ServerMain/INFO]: Loaded 7 recipes
+[14:57:35] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[14:57:35] [Server thread/INFO]: Loading properties
+[14:57:35] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[14:57:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:57:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:57:36] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[20:11:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[20:11:58] [Server thread/INFO]: Default game type: SURVIVAL
-[20:11:58] [Server thread/INFO]: Generating keypair
-[20:11:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:11:59] [Server thread/INFO]: Using default channel type
-[20:11:59] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:11:59] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:11:59] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
-[20:11:59] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@36251346]
-[20:11:59] [Server thread/INFO]: [VoidWorldGenerator] Loading server plugin VoidWorldGenerator v1.3.6
-[20:11:59] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v25.0.2
-[20:11:59] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.0
-[20:11:59] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.11
-[20:11:59] [Server thread/INFO]: [MOTD] Loading server plugin MOTD v2.3.11
-[20:11:59] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
-[20:12:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:12:00] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v3.23.4
-[20:12:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:12:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
-[20:12:00] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:12:00] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:12:00] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[20:12:01] [Server thread/INFO]: [VoidWorldGenerator] Enabling VoidWorldGenerator v1.3.6
-[20:12:01] [Server thread/INFO]: [VoidWorldGenerator] Biome registry not found, using default biome.
-[20:12:01] [Server thread/INFO]: [VoidWorldGenerator] Config loaded: {*=BiomeAndSpawn[biome=THE_VOID, x=0, y=64, z=0]}
-[20:12:01] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v25.0.2
-[20:12:01] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[20:12:02] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[20:12:02] [Server thread/INFO]: [TerraformGenerator] Detected version: v1_20_R1, packName: v1_20_R1
-[20:12:02] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
-[20:12:03] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[20:12:03] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[20:12:03] [Server thread/INFO]: [MOTD] Enabling MOTD v2.3.11
-[20:12:03] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.10.0
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcb9320
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[20:12:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[20:12:04] [Server thread/INFO]:         __    
-[20:12:04] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
-[20:12:04] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:12:04] [Server thread/INFO]: 
-[20:12:04] [Server thread/INFO]: [LuckPerms] Loading storage provider... [YAML]
-[20:12:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:12:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:12:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1153ms)
-[20:12:04] [Server thread/INFO]: Preparing level "world"
-[20:12:05] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
-[20:12:05] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
-[20:12:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:12:06] [Server thread/INFO]: Time elapsed: 330 ms
-[20:12:06] [Server thread/INFO]: [TerraformGenerator] world loaded.
-[20:12:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:12:06] [Server thread/INFO]: Time elapsed: 21 ms
-[20:12:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:12:06] [Server thread/INFO]: Time elapsed: 19 ms
-[20:12:06] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.11
-[20:12:06] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.11" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[20:12:06] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[20:12:06] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: spawn
-[20:12:06] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[20:12:06] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[20:12:06] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[20:12:06] [Server thread/INFO]: [Multiverse-Core] Version 4.3.11 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[20:12:06] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v3.23.4
-[20:12:06] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.23.4 Plugin Loading...
-[20:12:06] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
-[20:12:06] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[20:12:06] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
-[20:12:07] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.23.4 Plugin Loaded!
-[20:12:07] [Server thread/INFO]: Running delayed init tasks
-[20:12:07] [Server thread/INFO]: Done (9.751s)! For help, type "help"
-[20:12:07] [Server thread/INFO]: Timings Reset
-[20:12:12] [User Authenticator #0/INFO]: UUID of player Nisamov is 144d929b-366d-41f4-94f9-1de0386f5ab5
-[20:12:12] [Server thread/INFO]: Nisamov joined the game
-[20:12:12] [Server thread/INFO]: Nisamov[/[0:0:0:0:0:0:0:1]:62194] logged in with entity id 276 at ([world]-1.5019065991185785, 66.0, 4.661277228810159)
-[20:12:15] [Tuinity Chunk System Worker #2/WARN]: [ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
-[20:12:16] [Server thread/INFO]: Nisamov issued server command: /mv create spawn END -G VoidWorldGenerator
-[20:12:16] [Server thread/INFO]: Nisamov: Starting creation of world 'spawn'...
-[20:12:16] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'spawn' - Env: THE_END - Type: NORMAL & generator: VoidWorldGenerator
-[20:12:16] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
-[20:12:16] [Server thread/INFO]: Time elapsed: 23 ms
-[20:12:16] [Server thread/INFO]: Nisamov: Complete!
-[20:12:22] [Server thread/INFO]: Nisamov issued server command: /mvtp spawn
-[20:12:25] [Server thread/INFO]: Nisamov issued server command: /mv confirm
-[20:12:25] [Server thread/INFO]: Nisamov has made the advancement [The End?]
-[20:12:25] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[20:12:25] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
-[20:12:27] [Server thread/INFO]: Nisamov fell from a high place
-[20:12:32] [Server thread/INFO]: Nisamov fell from a high place
-[20:12:36] [Server thread/INFO]: Nisamov fell from a high place
-[20:12:39] [Server thread/INFO]: Nisamov fell from a high place
-[20:12:43] [Server thread/INFO]: Nisamov fell from a high place
-[20:12:52] [Server thread/INFO]: Unknown game mode: Nisamov
-...de Nisamov creative<--[HERE]
-[20:13:01] [Server thread/INFO]: Unknown game mode: Nisamov
-...de Nisamov 1<--[HERE]
-[20:13:07] [Server thread/INFO]: Nisamov fell from a high place
-[20:13:25] [Server thread/INFO]: Nisamov issued server command: /gamemode creative
-[20:13:25] [Server thread/INFO]: [Nisamov: Set own game mode to Creative Mode]
-[20:13:32] [Server thread/INFO]: Nisamov issued server command: /kill @e
-[20:13:32] [Server thread/INFO]: Nisamov was killed
-[20:13:32] [Server thread/INFO]: [Nisamov: Killed 392 entities]
-[20:13:34] [Server thread/INFO]: Nisamov issued server command: /kill @e
-[20:13:34] [Server thread/INFO]: Nisamov was killed
-[20:13:34] [Server thread/INFO]: [Nisamov: Killed 391 entities]
-[20:14:22] [Server thread/INFO]: Nisamov issued server command: //set 0
-[20:15:32] [Server thread/INFO]: Nisamov issued server command: //set 0
-[20:16:04] [Server thread/INFO]: Nisamov issued server command: /setworldspawn 0 65 0
-[20:16:04] [Server thread/INFO]: [Nisamov: Set the world spawn point to 0, 65, 0 [0.0]]
-[20:16:13] [Server thread/INFO]: Nisamov issued server command: /setworldspawn
-[20:16:13] [Server thread/INFO]: [Nisamov: Set the world spawn point to 0, 66, 0 [0.0]]
-[20:16:29] [Server thread/INFO]: Nisamov lost connection: Disconnected
-[20:16:29] [Server thread/INFO]: Nisamov left the game
-[20:16:32] [Server thread/INFO]: Stopping server
-[20:16:32] [Server thread/INFO]: [CommandPanels] Disabling CommandPanels v3.23.4
-[20:16:32] [Server thread/INFO]: RockyHawk's CommandPanels Plugin Disabled, aww man.
-[20:16:32] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
-[20:16:32] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:16:32] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:16:32] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:16:32] [Server thread/INFO]: [MOTD] Disabling MOTD v2.3.11
-[20:16:32] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.11
-[20:16:32] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.10.0
-[20:16:32] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v25.0.2
-[20:16:32] [Server thread/INFO]: [VoidWorldGenerator] Disabling VoidWorldGenerator v1.3.6
-[20:16:32] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
-[20:16:32] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:16:32] [Server thread/INFO]: Saving players
-[20:16:32] [Server thread/INFO]: Saving worlds
-[20:16:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:16:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:16:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:16:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Saved 1827 block chunks, 625 entity chunks, 2 poi chunks in world 'world' in 1,02s
-[20:16:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:16:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0,49s
-[20:16:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:16:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,08s
-[20:16:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:16:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
-[20:16:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
-[20:16:34] [Server thread/INFO]: [ChunkHolderManager] Saved 2209 block chunks, 826 entity chunks, 0 poi chunks in world 'spawn' in 0,32s
-[20:16:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:16:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:16:34] [Server thread/INFO]: Flushing Chunk IO
-[20:16:34] [Server thread/INFO]: Closing Thread Pool
-[20:16:34] [Server thread/INFO]: Closing Server
+[14:57:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[14:57:36] [Server thread/INFO]: Default game type: SURVIVAL
+[14:57:36] [Server thread/INFO]: Generating keypair
+[14:57:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:57:36] [Server thread/INFO]: Using default channel type
+[14:57:36] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[14:57:36] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:57:36] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[14:57:37] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:57:37] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[14:57:37] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
+[14:57:37] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.11
+[14:57:37] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[14:57:38] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@50fcd0c3]
+[14:57:38] [Server thread/INFO]: [VoidWorldGenerator] Loading server plugin VoidWorldGenerator v1.3.6
+[14:57:38] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v25.0.2
+[14:57:38] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.0
+[14:57:38] [Server thread/INFO]: [MOTD] Loading server plugin MOTD v2.3.11
+[14:57:38] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.30.4
+[14:57:38] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v3.23.4
+[14:57:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:57:38] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[14:57:38] [Server thread/INFO]:         __    
+[14:57:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[14:57:38] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:57:38] [Server thread/INFO]: 
+[14:57:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [YAML]
+[14:57:38] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:57:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:57:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1111ms)
+[14:57:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:57:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:57:39] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:57:39] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:57:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[14:57:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:57:39] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[14:57:39] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[14:57:41] [Server thread/INFO]: [VoidWorldGenerator] Enabling VoidWorldGenerator v1.3.6
+[14:57:41] [Server thread/INFO]: [VoidWorldGenerator] Biome registry not found, using default biome.
+[14:57:41] [Server thread/INFO]: [VoidWorldGenerator] Config loaded: {*=BiomeAndSpawn[biome=THE_VOID, x=0, y=64, z=0]}
+[14:57:41] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v25.0.2
+[14:57:41] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[14:57:41] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[14:57:41] [Server thread/INFO]: [TerraformGenerator] Detected version: v1_20_R1, packName: v1_20_R1
+[14:57:41] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
+[14:57:42] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[14:57:42] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:57:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.10.0]
+[14:57:42] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[14:57:42] [Server thread/INFO]: [MOTD] Enabling MOTD v2.3.11
+[14:57:42] [Server thread/INFO]: [MOTD] [Placeholder] PlaceholderAPI hooked.
+[14:57:42] [Server thread/INFO]: Preparing level "world"
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.10.0
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcb9320
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[14:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[14:57:43] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[14:57:43] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[14:57:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:57:43] [Server thread/INFO]: Time elapsed: 313 ms
+[14:57:43] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[14:57:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:57:43] [Server thread/INFO]: Time elapsed: 25 ms
+[14:57:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:57:43] [Server thread/INFO]: Time elapsed: 20 ms
+[14:57:43] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
+[14:57:44] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:57:44] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.11
+[14:57:44] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.11" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[14:57:44] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[14:57:44] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[14:57:44] [Server thread/INFO]: Time elapsed: 33 ms
+[14:57:44] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[14:57:44] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[14:57:44] [Server thread/INFO]: [Multiverse-Core] Version 4.3.11 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[14:57:44] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.4
+[14:57:44] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v3.23.4
+[14:57:44] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.23.4 Plugin Loading...
+[14:57:44] [Server thread/INFO]: Error in file: rankup.yml
+[14:57:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[14:57:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[14:57:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
+[14:57:45] [pool-22-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (3ac35c15e43cb693f68baf05b72a26ebd4d3d78d)
+[14:57:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: commandpanels [3.23.4]
+[14:57:45] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.23.4 Plugin Loaded!
+[14:57:45] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:57:45] [Server thread/INFO]: Running delayed init tasks
+[14:57:45] [Server thread/INFO]: Done (10.359s)! For help, type "help"
+[14:57:45] [Server thread/INFO]: Timings Reset
+[14:57:45] [Server thread/INFO]: [CommandPanels] Error in: rankup.yml
+[14:57:45] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
+[14:57:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[14:57:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[14:57:45] [Server thread/INFO]: 2 placeholder hook(s) registered!
+[14:57:46] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
+[14:57:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[14:57:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[14:57:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[14:57:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enviar la consola al canal asignado TC:logs(1356760473516904569)
+[14:57:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Activando complementos de LuckPerms
+[14:57:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Activando complementos de Multiverse-Core
+[14:57:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Activando complementos de PlaceholderAPI
+[14:57:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.30.4]
+[14:57:48] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[15:02:29] [Server thread/INFO]: Stopping server
+[15:02:29] [Server thread/INFO]: [CommandPanels] Disabling CommandPanels v3.23.4
+[15:02:29] [Server thread/INFO]: RockyHawk's CommandPanels Plugin Disabled, aww man.
+[15:02:29] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.30.4
+[15:02:30] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Apagado completado en 473ms
+[15:02:30] [Server thread/INFO]: [MOTD] Disabling MOTD v2.3.11
+[15:02:30] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.10.0
+[15:02:30] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v25.0.2
+[15:02:30] [Server thread/INFO]: [VoidWorldGenerator] Disabling VoidWorldGenerator v1.3.6
+[15:02:30] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+[15:02:30] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:02:30] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.11
+[15:02:30] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.12.2
+[15:02:30] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[15:02:30] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[15:02:30] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:02:30] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:02:30] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:02:30] [Server thread/INFO]: Saving players
+[15:02:30] [Server thread/INFO]: Saving worlds
+[15:02:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:02:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:02:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:02:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 0,62s
+[15:02:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:02:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0,49s
+[15:02:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:02:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,10s
+[15:02:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:02:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[spawn]'/minecraft:spawn
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'spawn'
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'spawn'
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'spawn'
+[15:02:31] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'spawn' in 0,07s
+[15:02:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:02:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:02:31] [Server thread/INFO]: Flushing Chunk IO
+[15:02:31] [Server thread/INFO]: Closing Thread Pool
+[15:02:31] [Server thread/INFO]: Closing Server
